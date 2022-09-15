@@ -8,10 +8,10 @@
     <relativePath /> <!-- lookup parent from repository -->
   </parent>
   <groupId>com.suavo</groupId>
-  <artifactId>fx-pricing-grpc</artifactId>
+  <artifactId>fx-pricing-grpc-server</artifactId>
   <version>1.0.0s-SNAPSHOT</version>
-  <name>fx-pricing-grpc</name>
-  <description>Demo project for Spring Boot</description>
+  <name>FX Pricing gRPC Server</name>
+  <description>gRPC Server for streaming fx prices</description>
 
   <properties>
     <java.version>17</java.version>
