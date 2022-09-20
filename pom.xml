@@ -17,7 +17,7 @@
   </properties>
 
   <modules>
-    <!-- <module>fx-pricing-grpc-interface</module> -->
+    <module>fx-pricing-grpc-interface</module>
     <module>fx-pricing-grpc-server</module>
     <!-- <module>fx-pricing-grpc-client</module> -->
   </modules>

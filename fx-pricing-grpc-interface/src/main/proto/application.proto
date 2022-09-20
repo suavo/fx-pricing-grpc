@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package fx.pricing.grpc;
+
+option java_multiple_files = true;
+option java_package = "com.suavo.fx.pricing.grpc.protos";
+option java_outer_classname = "PricingServiceProto";
+
+service PricingService {
+  rpc GetPrice (GetPriceRequest) returns (stream Price) {}
+}
+
+message GetPriceRequest {
+  string ccyPair = 1;
+}
+
+message Price {
+  double spotRate = 1;
+  double spotMargin = 2;
+  double forwardRate = 3;
+  double forwardMargin = 4;
+  double allInRate = 5;
+}
