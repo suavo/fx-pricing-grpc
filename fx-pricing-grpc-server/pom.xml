@@ -13,9 +13,15 @@
 
   <dependencies>
 
+    <!-- Project -->
     <dependency>
       <groupId>com.suavo</groupId>
       <artifactId>fx-pricing-grpc-interface</artifactId>
+      <version>1.0.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>com.suavo</groupId>
+      <artifactId>exchangerate-host-client</artifactId>
       <version>1.0.0-SNAPSHOT</version>
     </dependency>
 
@@ -37,6 +43,13 @@
       <artifactId>spring-boot-devtools</artifactId>
       <scope>runtime</scope>
       <optional>true</optional>
+    </dependency>
+
+    <!-- Logging -->
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>logging-interceptor</artifactId>
+      <version>5.0.0-alpha.10</version>
     </dependency>
 
     <!-- Test -->
